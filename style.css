@@ -32,7 +32,7 @@ h1, h2, h3 {
 }
 
 .content {
-    width: 1080px;
+    margin: auto;
 }
 
 .header {
@@ -57,9 +57,10 @@ h1, h2, h3 {
 .main {
     border-bottom: 1px solid; 
     border-color: #2a3d19;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;  
     margin-top: 25px;
+    margin: auto;
+    max-width: 1080px;
     padding-bottom: 25px;
 }
 
@@ -70,19 +71,14 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.page {
-    display: grid;
-    align-items: center; 
-    justify-items: center;
-    overflow: auto;
-}
-
 .reels_1 {
     border-bottom: 1px solid; 
     border-color: #2a3d19;
     column-gap: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(530px, 1fr));
+    margin: auto;
+    max-width: 1080px;
     padding-top: 15px;
     padding-bottom: 8px;
 }
@@ -92,9 +88,20 @@ h1, h2, h3 {
     border-color: #2a3d19;
     column-gap: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    margin: auto;
+    max-width: 1080px;
     padding-top: 15px;
     padding-bottom: 8px;
+}
+
+.youtube_video { 
+    aspect-ratio: 16/9;
+    width: 100%;
+    min-width:400;
+    max-width:800;
+    height: auto;
+    min-height:400;
 }
 
 /* .title {
