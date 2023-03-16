@@ -51,10 +51,12 @@ h1, h2, h3 {
 }
 
 .main {
+    border-bottom: 1px solid; 
+    border-color: #2a3d19;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 25px;
     margin-top: 25px;
+    padding-bottom: 25px;
 }
 
 .nav {
@@ -73,6 +75,9 @@ h1, h2, h3 {
 }
 
 .reels_1 {
+    border-bottom: 1px solid; 
+    border-color: #2a3d19;
+    column-gap: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 15px;
@@ -80,18 +85,20 @@ h1, h2, h3 {
 }
 
 .reels_2 {
+    border-bottom: 1px solid; 
+    border-color: #2a3d19;
+    column-gap: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 15px;
+    padding-bottom: 8px;
 }
 
-.title {
-    border-top: 1px solid; 
-    border-color: #2a3d19;
+/* .title {
     font-family: Raleway-Bold;
     padding-top: 15px;
     text-align: center;
-}
+} */
 
 @font-face {
   font-family: Raleway-Regular;
