@@ -36,10 +36,14 @@ h1, h2, h3 {
 }
 
 .header {
+    border-bottom: 1px solid; 
+    border-color: #2a3d19;
     background-color: rgb(24, 24, 24);
     padding-top: 50px;
+    padding-bottom: 15px;
     position: sticky;
     top: 0;
+    text-align: center;
 }
 
 .mail {
@@ -60,10 +64,9 @@ h1, h2, h3 {
 }
 
 .nav {
-    border-bottom: 1px solid; 
-    border-color: #2a3d19;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 10px;
     text-align: center;
 }
 
