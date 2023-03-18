@@ -1,25 +1,35 @@
+:root {
+    --white: #F6F6F6;
+    --green: #3C9C63;
+    --dark: #414141;
+    --grey: #E0E0E0;
+    --black: rgb(24, 24, 24);
+}
+
 a {
-    color: #e7e1dd;
+    color: var(--black);
     font-family: Raleway-Bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-decoration: none;
 }
 
 a:hover {
-    color: #6fa342;
+    color: var(--green);
 }
 
 html {
-    background-color: rgb(24, 24, 24);
-    color: #e7e1dd;
+    background-color: var(--white);
+    color: var(--white);
 }
 
 h1 {
-    color: #6fa342;
+    color: var(--green);
     font-size: 24px;
 }
 
 h2, h3 {
-    color: #e7e1dd;
+    color: var(--black);
 }
 
 h1, h2, h3 {
@@ -37,9 +47,9 @@ h1, h2, h3 {
 
 .header {
     border-bottom: 1px solid; 
-    border-color: #2a3d19;
-    background-color: rgb(24, 24, 24);
-    padding-top: 50px;
+    border-color: var(--green);
+    background-color: var(--white);
+    padding-top: 10px;
     padding-bottom: 15px;
     position: sticky;
     top: 0;
@@ -47,7 +57,7 @@ h1, h2, h3 {
 }
 
 .mail {
-    color:#6fa342;
+    color: var(--green);
     font-family: Raleway-Bold;
     margin-top: 0px;
     text-transform: lowercase;
@@ -56,24 +66,24 @@ h1, h2, h3 {
 
 .main {
     border-bottom: 1px solid; 
-    border-color: #2a3d19;
+    border-color: var(--green);
     display: grid;  
     margin-top: 25px;
     margin: auto;
     max-width: 1080px;
     padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 .nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 10px;
     text-align: center;
 }
 
 .reels_1 {
     border-bottom: 1px solid; 
-    border-color: #2a3d19;
+    border-color: var(--green);
     column-gap: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(530px, 1fr));
@@ -85,7 +95,7 @@ h1, h2, h3 {
 
 .reels_2 {
     border-bottom: 1px solid; 
-    border-color: #2a3d19;
+    border-color: var(--green);
     column-gap: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -98,10 +108,10 @@ h1, h2, h3 {
 .youtube_video { 
     aspect-ratio: 16/9;
     width: 100%;
-    min-width:400;
-    max-width:800;
+    min-width: 400;
+    max-width: 800;
     height: auto;
-    min-height:400;
+    min-height: 400;
 }
 
 /* .title {
