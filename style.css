@@ -2,12 +2,12 @@
     --white: #F6F6F6;
     --green: #3C9C63;
     --dark: #414141;
-    --grey: #E0E0E0;
+    --grey: #A5A5A5;
     --black: rgb(24, 24, 24);
 }
 
 a {
-    color: var(--black);
+    color: var(--grey);
     font-family: Raleway-Bold;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -19,7 +19,7 @@ a:hover {
 }
 
 html {
-    background-color: var(--white);
+    background-color: var(--black);
     color: var(--white);
 }
 
@@ -28,8 +28,16 @@ h1 {
     font-size: 24px;
 }
 
-h2, h3 {
-    color: var(--black);
+h2 {
+    color: var(--dark);
+}
+
+h3 {
+    color: var(--grey);
+}
+
+h1, h2, h3 {
+    font-size: 20px;
 }
 
 h1, h2, h3 {
@@ -41,6 +49,12 @@ h1, h2, h3 {
     font-weight: normal;
 }
 
+iframe {
+    border: 1px solid;
+    border-color: var(--green);
+    padding: 1px;
+}
+
 .content {
     margin: auto;
 }
@@ -48,7 +62,7 @@ h1, h2, h3 {
 .header {
     border-bottom: 1px solid; 
     border-color: var(--green);
-    background-color: var(--white);
+    background-color: var(--black);
     padding-top: 10px;
     padding-bottom: 15px;
     position: sticky;
@@ -65,14 +79,14 @@ h1, h2, h3 {
 }
 
 .main {
-    border-bottom: 1px solid; 
-    border-color: var(--green);
+    /* border-bottom: 1px solid; 
+    border-color: var(--green); */
     display: grid;  
     margin-top: 25px;
     margin: auto;
     max-width: 1080px;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .nav {
@@ -82,11 +96,11 @@ h1, h2, h3 {
 }
 
 .reels_1 {
-    border-bottom: 1px solid; 
-    border-color: var(--green);
+    /* border-bottom: 1px solid; 
+    border-color: var(--green); */
     column-gap: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(530px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(526px, 1fr));
     margin: auto;
     max-width: 1080px;
     padding-top: 15px;
@@ -94,8 +108,8 @@ h1, h2, h3 {
 }
 
 .reels_2 {
-    border-bottom: 1px solid; 
-    border-color: var(--green);
+    /* border-bottom: 1px solid; 
+    border-color: var(--green); */
     column-gap: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
