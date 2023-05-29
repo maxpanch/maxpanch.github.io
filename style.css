@@ -15,17 +15,18 @@ a {
 }
 
 a:hover {
-    color: var(--green);
+    color: var(--grey);
 }
 
 html {
-    background-color: var(--black);
+    background-color: var(--white);
     color: var(--white);
 }
 
 h1 {
-    color: var(--green);
-    font-size: 24px;
+    color: var(--black);
+    font-size: 32px;
+    margin-top: 0px;
 }
 
 h2 {
@@ -33,14 +34,15 @@ h2 {
 }
 
 h3 {
-    color: var(--grey);
+    font-family: Raleway-Regular;
+    color: var(--black);
 }
 
-h1, h2, h3 {
+h3 {
     font-size: 20px;
 }
 
-h1, h2, h3 {
+h3 {
     font-family: Raleway-Regular;
     margin-bottom: 7px;
     margin-top: 7px;
@@ -49,10 +51,31 @@ h1, h2, h3 {
     font-weight: normal;
 }
 
-iframe {
-    border: 1px solid;
-    border-color: var(--green);
-    padding: 1px;
+h1, h2 {
+    font-family: Raleway-Regular;
+    text-align: center;
+}
+
+hr {
+    max-width: 1280px;
+}
+
+p {
+    color: black;
+    font-family: Raleway-Regular;
+}
+
+.additional_info {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.career {
+    color: var(--black);
+    font-family: Raleway-Regular;
+    font-size: 28px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .content {
@@ -60,20 +83,19 @@ iframe {
 }
 
 .header {
-    border-bottom: 1px solid; 
-    border-color: var(--green);
-    background-color: var(--black);
+    background-color: var(--white);
     padding-top: 10px;
     padding-bottom: 15px;
-    position: sticky;
     top: 0;
     text-align: center;
 }
 
 .mail {
-    color: var(--green);
-    font-family: Raleway-Bold;
+    color: var(--black);
+    font-family: Raleway-Regular;
+    font-size: 20px;
     margin-top: 0px;
+    margin-bottom: 0;
     text-transform: lowercase;
     text-decoration: none;
 }
@@ -84,9 +106,17 @@ iframe {
     display: grid;  
     margin-top: 25px;
     margin: auto;
-    max-width: 1080px;
+    max-width: 1280px;
     padding-bottom: 15px;
     padding-top: 15px;
+}
+
+.name {
+    font-size: 48px;
+    font-family: Raleway-Bold;
+    color: var(--black);
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .nav {
@@ -96,27 +126,18 @@ iframe {
 }
 
 .reels_1 {
-    /* border-bottom: 1px solid; 
-    border-color: var(--green); */
     column-gap: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(526px, 1fr));
+    grid-template-columns: 1fr 1fr;
     margin: auto;
-    max-width: 1080px;
+    max-width: 1280px;
     padding-top: 15px;
     padding-bottom: 8px;
 }
 
-.reels_2 {
-    /* border-bottom: 1px solid; 
-    border-color: var(--green); */
-    column-gap: 30px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    margin: auto;
-    max-width: 1080px;
-    padding-top: 15px;
-    padding-bottom: 8px;
+.soundtracks {
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .youtube_video { 
@@ -127,12 +148,6 @@ iframe {
     height: auto;
     min-height: 400;
 }
-
-/* .title {
-    font-family: Raleway-Bold;
-    padding-top: 15px;
-    text-align: center;
-} */
 
 @font-face {
   font-family: Raleway-Regular;
