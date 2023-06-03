@@ -70,6 +70,10 @@ p {
     margin-top: 5px;
 }
 
+.audio_implementation > h3 {
+    text-align: center;
+}
+
 .career {
     color: var(--black);
     font-family: Raleway-Regular;
