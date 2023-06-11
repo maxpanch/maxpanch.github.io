@@ -153,6 +153,15 @@ p {
     min-height: 400;
 }
 
+.game_picture { 
+    aspect-ratio: 16/9;
+    width: 100%;
+    min-width: 400;
+    max-width: 800;
+    height: auto;
+    min-height: 400;
+}
+
 @font-face {
   font-family: Raleway-Regular;
   src: url(fonts/Raleway-Regular.ttf);
