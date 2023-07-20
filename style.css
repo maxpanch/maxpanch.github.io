@@ -28,6 +28,7 @@ h1 {
     font-family: Raleway-Bold;
     font-size: 32px;
     margin-top: 0px;
+    text-align: left;
 }
 
 h2 {
@@ -52,7 +53,6 @@ h3 {
     font-weight: normal;
 }
 
-h1,
 h2 {
     font-family: Raleway-Bold;
     text-align: center;
@@ -153,11 +153,13 @@ p {
 .soundtracks {
     margin-bottom: 15px;
     margin-top: 15px;
+    text-align: center;
 }
 
 .gamejams {
     margin-bottom: 0px;
-    margin-top: 15px;
+    margin-top: 23px;
+    text-align: center;
 }
 
 .youtube_video {
@@ -176,6 +178,10 @@ p {
     max-width: 800;
     height: auto;
     min-height: 400;
+}
+
+.gamejam_text {
+    text-align: center;
 }
 
 @font-face {
