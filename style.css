@@ -7,7 +7,7 @@
 }
 
 a {
-    color: var(--grey);
+    color: var(--black);
     font-family: Raleway-Bold;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -83,7 +83,7 @@ p {
     color: var(--black);
     font-family: Raleway-Regular;
     font-size: 48px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-top: 0px;
 }
 
@@ -186,6 +186,15 @@ p {
 .gamejam_text {
     margin-top: 10px;
     text-align: center;
+}
+
+.logo_img {
+    height: 20px;
+}
+
+.logo {
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 @font-face {
