@@ -1,7 +1,5 @@
 :root {
     --white: #FFFFFF;
-    --green: #3C9C63;
-    --dark: #414141;
     --grey: #A5A5A5;
     --black: rgb(24, 24, 24);
 }
@@ -50,11 +48,21 @@ h3 {
     color: var(--black);
     font-family: Raleway-Medium;
     font-size: 32px;
-    margin-bottom: 7px;
-    margin-top: 7px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     text-align: left;
     text-decoration: none;
     font-weight: normal;
+}
+
+iframe,
+img {
+    padding-bottom: 15px;
+}
+
+main {
+    margin: auto;
+    max-width: 95%;
 }
 
 p {
@@ -76,7 +84,6 @@ p {
     display: grid;
     margin-top: 25px;
     margin: auto;
-    padding-bottom: 15px;
 }
 
 .dr_multiple {
@@ -84,8 +91,8 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     margin: auto;
-    padding-top: 27px;
-    padding-bottom: 27px;
+    padding-top: 22px;
+    padding-bottom: 15px;
 }
 
 .dr_multiple_hr {
@@ -107,6 +114,10 @@ p {
 
 .gamejams_content h2 {
     text-align: left;
+}
+
+.gamejams_content iframe {
+    padding-bottom: 10px;
 }
 
 .game_picture {
@@ -166,6 +177,10 @@ p {
     border-bottom: 1px solid var(--grey);
     margin: auto;
     margin-top: 5px;
+    padding-bottom: 17px;
+}
+
+.projects_additional_info {
     padding-bottom: 15px;
 }
 
