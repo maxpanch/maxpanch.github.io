@@ -91,7 +91,7 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     margin: auto;
-    padding-top: 22px;
+    padding-top: 15px;
     padding-bottom: 15px;
 }
 
@@ -130,8 +130,8 @@ p {
 }
 
 .gamejams_title {
-    margin-bottom: 0px;
-    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .gamejam_text {
@@ -174,7 +174,6 @@ p {
 }
 
 .projects {
-    border-bottom: 1px solid var(--grey);
     margin: auto;
     margin-top: 5px;
     padding-bottom: 17px;
