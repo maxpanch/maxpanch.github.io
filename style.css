@@ -16,7 +16,7 @@ body {
 header {
     margin: auto;
     padding-top: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     top: 0;
     width: 703px;
 }
@@ -37,7 +37,7 @@ h1 {
 
 h2 {
     color: var(--black);
-    font-family: Raleway-Medium;
+    font-family: Raleway-Bold;
     font-size: 32px;
     margin-bottom: 10px;
     margin-top: 10px;
