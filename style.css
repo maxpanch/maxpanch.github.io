@@ -98,7 +98,7 @@ p {
     text-align: center;
 }
 
-.gamejams_content {
+.small_projects_content {
     column-gap: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
@@ -107,12 +107,22 @@ p {
     padding-bottom: 8px;
 }
 
-.gamejams_content h2 {
+.small_projects_content h2 {
     text-align: left;
 }
 
-.gamejams_content iframe {
+.small_projects_content iframe {
     padding-bottom: 10px;
+}
+
+.small_projects_text {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.small_projects_type {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .game_picture {
@@ -124,7 +134,7 @@ p {
     min-height: 400;
 }
 
-.gamejams_title {
+.small_projects_title {
     margin-bottom: 5px;
     margin-top: 10px;
 }
