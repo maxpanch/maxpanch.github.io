@@ -90,8 +90,6 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .dr_ai h3 {
