@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+article {
+    margin-bottom: 20px;
+}
+
 body {
     margin: auto;
     max-width: 1280px;
@@ -38,9 +42,21 @@ h2 {
     color: var(--black);
     font-family: Raleway-Bold;
     font-size: 32px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     text-align: center;
+}
+
+h4 {
+    color: var(--black);
+    display: inline-block;
+    font-family: Raleway-Medium;
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
 }
 
 h3 {
@@ -56,7 +72,7 @@ h3 {
 
 iframe,
 img {
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 main {
@@ -68,6 +84,10 @@ p {
     color: var(--black);
     font-family: Raleway-Regular;
     font-size: 20px;
+}
+
+section {
+    padding-bottom: 15px;
 }
 
 .career {
@@ -90,6 +110,7 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .dr_ai h3 {
@@ -105,22 +126,29 @@ p {
     padding-bottom: 8px;
 }
 
+.small_projects_2x2 {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
 .small_projects_content h2 {
     text-align: left;
 }
 
 .small_projects_content iframe {
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .small_projects_text {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     margin-top: 5px;
 }
 
 .small_projects_type {
+    display: inline-block;
     margin-bottom: 10px;
+    margin-left: 10px;
     margin-top: 10px;
+
 }
 
 .game_picture {
@@ -133,8 +161,8 @@ p {
 }
 
 .small_projects_title {
-    margin-bottom: 5px;
-    margin-top: 10px;
+    /* margin-bottom: 5px;
+    margin-top: 10px; */
 }
 
 .gamejam_text {
