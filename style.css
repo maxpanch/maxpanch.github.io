@@ -1,10 +1,16 @@
 :root {
-    --white: #FFFFFF;
-    --black: rgb(24, 24, 24);
+    --white: #111111;
+    --black: #e4e4e4;
 }
 
 a {
     text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 article {
