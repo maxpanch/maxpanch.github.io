@@ -9,9 +9,6 @@ a {
     font-weight: bold;
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 article {
     margin-bottom: 20px;
@@ -187,7 +184,7 @@ section {
 }
 
 .logo_img:hover {
-    border-bottom: 3px solid black;
+    /* border-bottom: 3px solid black; */
     color: #fff;
 }
 
@@ -232,6 +229,10 @@ section {
     max-width: 800;
     height: auto;
     min-height: 400;
+}
+
+.walkthrough_link:hover {
+    text-decoration: underline;
 }
 
 @font-face {
