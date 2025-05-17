@@ -1,11 +1,13 @@
 :root {
-    --white: #111111;
-    --black: #e4e4e4;
+    --black: #121212;
+    --white: #f0f0f0;
+    --green: #4ade80;
+    --red: #f87171;
 }
 
 a {
     text-decoration: none;
-    color: var(--black);
+    color: var(--white);
     font-weight: bold;
 }
 
@@ -28,12 +30,12 @@ header {
 }
 
 html {
-    background-color: var(--white);
-    color: var(--white);
+    background-color: var(--black);
+    color: var(--black);
 }
 
 h1 {
-    color: var(--black);
+    color: var(--white);
     font-family: Raleway-Bold;
     font-size: 32px;
     margin-bottom: 10px;
@@ -42,7 +44,7 @@ h1 {
 }
 
 h2 {
-    color: var(--black);
+    color: var(--white);
     font-family: Raleway-Bold;
     font-size: 32px;
     margin-bottom: 0px;
@@ -51,7 +53,7 @@ h2 {
 }
 
 h4 {
-    color: var(--black);
+    color: var(--red);
     display: inline-block;
     font-family: Raleway-Bold;
     font-size: 32px;
@@ -63,7 +65,7 @@ h4 {
 }
 
 h3 {
-    color: var(--black);
+    color: var(--white);
     font-family: Raleway-Medium;
     font-size: 32px;
     margin-bottom: 0px;
@@ -84,7 +86,7 @@ main {
 }
 
 p {
-    color: var(--black);
+    color: var(--white);
     font-family: Raleway-Regular;
     font-size: 20px;
 }
@@ -94,8 +96,8 @@ section {
 }
 
 .career {
-    color: var(--black);
     display: inline-block;
+    color: var(--green);
     font-family: Raleway-Regular;
     font-size: 48px;
     margin-bottom: 10px;
@@ -127,6 +129,10 @@ section {
     margin: auto;
     padding-top: 15px;
     padding-bottom: 8px;
+}
+
+.small_projects_title {
+    color: var(--green);
 }
 
 .small_projects_2x2 {
@@ -196,7 +202,7 @@ section {
 .name {
     font-size: 72px;
     font-family: Raleway-Bold;
-    color: var(--black);
+    color: var(--white);
     margin-bottom: 0;
     padding-bottom: 0;
     padding-top: 0;
@@ -209,6 +215,7 @@ section {
 }
 
 .projects {
+    color: var(--green);
     margin: auto;
     margin-top: 5px;
     padding-bottom: 17px;
