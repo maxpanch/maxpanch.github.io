@@ -53,7 +53,7 @@ h2 {
 h4 {
     color: var(--black);
     display: inline-block;
-    font-family: Raleway-Medium;
+    font-family: Raleway-Bold;
     font-size: 32px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -148,6 +148,7 @@ section {
 
 .small_projects_type {
     display: inline-block;
+    font-family: Raleway-Medium;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-top: 10px;
